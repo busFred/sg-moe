@@ -9,7 +9,7 @@ import torch
 from torch import nn
 from torch.optim import Adam
 
-from moe import MoE
+from sg_moe import MoE
 
 
 def train(x, y, model, loss_fn, optim):
